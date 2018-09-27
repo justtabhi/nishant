@@ -1,0 +1,41 @@
+.customdiv{
+	margin-bottom:3px;
+	min-height:300px;
+	background-color:silver;
+	text-align:center;
+	font-size:large;	
+}
+.sidebarContent{
+	margin-bottom:10px;
+	min-height:150px;
+	background-color:silver;
+	text-align:center;
+	font-size:large;	
+}
+.customdiv1{
+	margin-bottom:10px;
+	min-height:310px;
+	background-color:silver;
+	text-align:center;
+	font-size:large;	
+}
+.customdiv2{
+	margin-bottom:10px;
+	min-height:310px;
+	background-color:silver;
+	text-align:center;
+	font-size:large;	
+}
+.customdiv3{
+	margin-bottom:10px;
+	min-height:300px;
+	background-color:silver;
+	text-align:center;
+	font-size:large;	
+}
+.customdiv4{
+	margin-bottom:10px;
+	background-color:none;
+	text-align:center;
+	font-size:large;	
+}

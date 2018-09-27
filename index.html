@@ -1,0 +1,246 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
+	<title>First Bootstrap Page</title>
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.bg-image {
+  /* The image used */
+  background-image: url("blog-4.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  
+  /* Full height */
+  height: 25%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  color: black;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  padding: 0px;
+  text-align: left;
+}
+.bg-text1 {
+  color: black;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  padding: 0px;
+  text-align: center;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar1 {
+  margin: 0px;
+
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.ul1 {
+  left: 15%;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.ul2 {
+  left: 30%;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.ul3 {
+  left: 40%;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.ul4 {
+  left: 55%;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.ul5 {
+  left: 78%;
+}
+.sidenav {
+        height: auto;
+        padding: 15px;
+		    position: static;
+    border: 3px solid #73AD21;
+      }
+.sidebarContent{
+	margin-bottom:10px;
+	min-height:150px;
+}
+.sidebarContent1{
+position: absolute;
+text-align:top;
+min-height:360px;
+min-width:178px;
+left: 33px;
+top: 575px;
+padding: 10px 0px 0px 10px;
+background-color:silver;
+}
+.border1{
+
+}
+
+  </style>		
+</head>
+</head>
+<body>
+
+
+<div class="bg-image" ></div>
+<div class="bg-text">
+<h2><b>ExamBunker.com</b></h2>
+</div>
+<div class="bg-text1">
+<h2><b>Latest Blog Posts</b></h2>
+</br>
+<h5><b>Read and get updated on how we progress.</b></h5>
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav nav-justified navbar1">
+      <li class="nav-item active">
+        <a class="nav-link navbar1" href="#"><b>Home</b></a>
+      </li>
+	 <li class="dropdown">
+      <li class="nav-item active">
+        <a class="nav-link navbar1" href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Exam</b><span class="caret"></span></a>
+				<ul class="dropdown-menu ul1">
+            <li><a href="#">Banking</a></li>
+            <li><a href="#">SSC</a></li>
+            <li><a href="#">Insurance</a></li>
+			<li><a href="#">RRB</a></li>
+        </ul>
+      </li>
+      </li>
+	 <li class="dropdown">	  
+      <li class="nav-item active">
+        <a class="nav-link navbar1" href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Article</b><span class="caret"></span></a>
+		<ul class="dropdown-menu ul2">
+            <li><a href="#">General Awarness</a></li>
+            <li><a href="#">Motivational</a></li>
+            <li><a href="#">Current Topics</a></li>
+        </ul>
+      </li>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link navbar1" href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Current Affair</b><span class="caret"></span></a>
+		<ul class="dropdown-menu ul3">
+            <li><a href="#">General Knowledge India 2018</a></li>
+            <li><a href="#">General Knowledge 2018</a></li>
+            <li><a href="#">General Knowledge History</a></li>
+			<li><a href="#">Previous Year Question Bank</a></li>
+        </ul>
+      </li>	 
+      <li class="nav-item active">
+        <a class="nav-link navbar1" href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Job Alert</b><span class="caret"></span></a>
+		<ul class="dropdown-menu ul4">
+            <li><a href="#">Banking</a></li>
+            <li><a href="#">SSC</a></li>
+            <li><a href="#">Insurance</a></li>
+			<li><a href="#">RRB</a></li>
+        </ul>
+      </li>	
+      <li class="nav-item active">
+        <a class="nav-link navbar1" href="#"><b>About</b></a>
+      </li>		
+      <li class="nav-item active">
+        <a class="nav-link navbar1" href="#"  class="dropdown-toggle" data-toggle="dropdown"><b>Login</b><span class="caret"></span></a>
+		<ul class="dropdown-menu ul5">
+            <li><a href="#">User</a></li>
+            <li><a href="#">Admin</a></li>
+        </ul>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link navbar1" href="#"><b>SignUp</b></a>
+      </li>	
+</ul>	  
+  </div>
+</nav>
+
+
+<div class="container-fluid">    
+  <div class="row content">
+  
+  
+    <div class="col-sm-2 sidenav">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="sidebarContent"><img src="4.jpg"/></div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="row content sidebarContent1">
+				<div class="col-sm-8"><h5><b>LatestArticle</b></h5>
+			</div>
+			</div>
+		</div>
+    </div>
+	
+	
+    <div class="col-sm-8 text-left"> 
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="border1"><img src="5.jpg"/><h5><b>LatestArticle</b></h5></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="border2"><img src="6.jpg"/><h5><b>LatestArticle</b></h5></div>
+			</div>
+		</div>		
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="border3"><img src="7.jpg"/><h5><b>LatestArticle</b></h5></div>
+			</div>
+		</div>		
+    </div>
+	
+	
+	
+	
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <img src="2.jpg"/>
+      </div>
+      <div class="well">
+		<img src="3.jpg"/>
+      </div>
+    </div>
+	
+	
+	
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>CopyRight 2018</p>
+</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	
+</body>
+</html>
